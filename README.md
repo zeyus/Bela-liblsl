@@ -47,7 +47,7 @@ The [`liblsl.so`](./lib/liblsl.so) library is included in the [`lib`](./lib) fol
     # make it available for the current session
     export PATH
     ```
-3. Download a [liblsl.dart](https://github.com/zeyus/liblsl.dart) release, e.g. `v0.5.0`:
+3. Download a [liblsl.dart](https://github.com/zeyus/liblsl.dart) release, e.g. `v0.5.0`, you can also use the main branch, but just remember clone with `git clone --recurse-submodules https://github.com/zeyus/liblsl.dart.git` to do a `git submodule update --init --recursive` after:
    ```bash
    # downlaod the release
    wget https://github.com/zeyus/liblsl.dart/archive/refs/tags/v0.5.0.zip
