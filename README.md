@@ -8,6 +8,11 @@ The [Bela](https://bela.io/) platform is a low-latency audio and sensor processi
 
 This repo contains the code and library needed to demonstrate real-time stream consumption from liblsl within the Bela context. It will discover available streams and will consume and print them to the console. Of course, you could create outlets, send data from the Bela, or process the data that's recieved. This just demonstrates the basic functionality of the library. It's also to help you get started with LSL on the Bela platform, including how to build it yourself if you want (or if the library is not compatible with some combination of OS and LSL version).
 
+You can see it in action here:
+
+https://github.com/user-attachments/assets/2a0322d6-ab97-474f-a939-cfdea2470679
+
+
 ## Running the example
 
 1. Clone the repo
