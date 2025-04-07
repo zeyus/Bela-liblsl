@@ -12,6 +12,10 @@ You can see it in action here:
 
 https://github.com/user-attachments/assets/2a0322d6-ab97-474f-a939-cfdea2470679
 
+Included is also [a simple example](./scripts/README.md) of streaming from pylsl to the bela. See [`render_lsl_audio.cpp`](./src/render_lsl_audio.cpp) for an example of how to stream audio from a wav file to the Bela board.
+
+This example is not well tested, it works, but it needs optimization and checking for use in a project as right now it uses a lot of CPU (~90%) on the Bela. 
+
 
 ## Running the example
 

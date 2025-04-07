@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+uv.lock
+.python-version
+
+.venv/
